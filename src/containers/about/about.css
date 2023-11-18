@@ -1,0 +1,14 @@
+.about {
+  background-color: rgba(255, 255, 255, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+.about img {
+  width: 20rem;
+}
+
+.about .comp {
+  width: 30%;
+}
