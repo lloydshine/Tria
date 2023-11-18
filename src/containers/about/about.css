@@ -1,9 +1,8 @@
 .about {
-  background-color: rgba(255, 255, 255, 0.842);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: black;
+  background-color: black;
 }
 .about img {
   width: 20rem;
@@ -11,4 +10,25 @@
 
 .about .comp {
   width: 30%;
+}
+
+.about .comp img {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+  .about {
+    flex-direction: column;
+    gap: 10rem;
+    padding: 5rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.829)),
+      url("../../assets/tria-andro.png") no-repeat center center / cover;
+  }
+  .about .about-img {
+    display: none;
+  }
+  .about .comp {
+    width: 100%;
+    text-align: center;
+  }
 }

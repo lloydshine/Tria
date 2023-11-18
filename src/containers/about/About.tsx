@@ -1,11 +1,13 @@
 import "./about.css";
 
 import img from "../../assets/tria-andro.png";
+import ameda from "../../assets/ameda.png";
 
 export default function About() {
   return (
     <div className="about">
       <div className="comp">
+        <img src="/main.png" alt="main" />
         <h3>Tria</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde
@@ -14,8 +16,9 @@ export default function About() {
           doloribus et.
         </p>
       </div>
-      <img src={img} alt="img" />
+      <img className="about-img" src={img} alt="img" />
       <div className="comp">
+        <img src={ameda} alt="main" />
         <h3>Ameda</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta
