@@ -16,6 +16,38 @@
   margin-bottom: 2rem;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-inno {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: black;
+}
+.about-inno ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 0.5rem;
+}
+
+.about-inno ul li {
+  padding: 0.3rem;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.about-inno ul li:hover {
+  background-color: white;
+  color: black;
+}
+
 @media screen and (max-width: 990px) {
   .about {
     flex-direction: column;
@@ -28,7 +60,7 @@
     display: none;
   }
   .about .comp {
-    width: 100%;
+    width: 70%;
     text-align: center;
   }
 }

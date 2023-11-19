@@ -5,27 +5,56 @@ import ameda from "../../assets/ameda.png";
 
 export default function About() {
   return (
-    <div className="about">
-      <div className="comp">
-        <img src="/main.png" alt="main" />
-        <h3>Tria</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde
-          sunt, dolores molestiae laborum itaque eum minima quisquam. Dolore
-          voluptas unde tenetur assumenda odio fugit temporibus ex voluptate
-          doloribus et.
-        </p>
+    <div className="about-container">
+      <div className="about">
+        <div className="comp">
+          <img src="/main.png" alt="main" />
+          <h3>Tria</h3>
+          <p>
+            Tria Web Design and Development is a cutting-edge digital agency
+            specializing in creating bespoke and innovative online experiences.
+            With a commitment to excellence and a passion for technology, Tria
+            is dedicated to helping businesses establish a strong online
+            presence and achieve their digital goals
+          </p>
+        </div>
+        <img className="about-img" src={img} alt="img" />
+        <div className="comp">
+          <img src={ameda} alt="main" />
+          <h3>Ameda</h3>
+          <p>
+            Ameda Visuals is a visionary 3D artist company dedicated to pushing
+            the boundaries of visual storytelling through stunning
+            three-dimensional artistry. With a team of passionate and skilled
+            artists, Ameda Visuals specializes in creating immersive and
+            captivating 3D visuals that bring ideas to life in the most
+            compelling and imaginative ways.
+          </p>
+        </div>
       </div>
-      <img className="about-img" src={img} alt="img" />
-      <div className="comp">
-        <img src={ameda} alt="main" />
-        <h3>Ameda</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta
-          corporis inventore neque dolore officiis ea voluptatibus possimus esse
-          blanditiis, vel odit sapiente. Aspernatur at quidem odit suscipit quo
-          nostrum.
-        </p>
+      <div className="about-inno">
+        <h2>
+          Unlocking Synergy: Collaboration Between{" "}
+          <span className="main">Tria</span> and{" "}
+          <span className="main2">Ameda</span>
+        </h2>
+        <ul>
+          <li>
+            <p>Immersive Web Environments</p>
+          </li>
+          <li>
+            <p>Interactive Product Showcases</p>
+          </li>
+          <li>
+            <p>Architectural Visualization Beyond Boundaries</p>
+          </li>
+          <li>
+            <p>Branding with a Visual Edge</p>
+          </li>
+          <li>
+            <p>Engaging Virtual Reality (VR) Experiences</p>
+          </li>
+        </ul>
       </div>
     </div>
   );

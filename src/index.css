@@ -31,6 +31,14 @@ span {
 
 @media screen and (max-width: 690px) {
   html {
-    font-size: 13px;
+    font-size: 12px;
   }
+}
+
+span.main {
+  color: var(--main-color);
+}
+
+span.main2 {
+  color: rgb(163, 120, 0);
 }
