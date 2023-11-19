@@ -5,7 +5,7 @@ import ameda from "../../assets/ameda.png";
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about">
         <div className="comp">
           <img src="/main.png" alt="main" />

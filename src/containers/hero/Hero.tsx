@@ -8,7 +8,7 @@ import {
 import "./hero.css";
 export default function Hero() {
   return (
-    <main className="hero">
+    <main className="hero" id="home">
       <div className="hero-text">
         <h1>
           You <span>Decide</span>
