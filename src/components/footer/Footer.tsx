@@ -8,10 +8,9 @@ export default function Footer() {
         <img src="/main.png" alt="main" />
       </div>
       <div>© 2023 Tria</div>
-      <div className="footer-links links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
+      <div className="footer-links">
+        <button>Terms of Service</button>
+        <button>Privacy Policy</button>
       </div>
     </footer>
   );
