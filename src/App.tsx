@@ -1,7 +1,5 @@
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./containers/hero/Hero";
-import About from "./containers/about/About";
-import Footer from "./components/footer/Footer";
+import { Navbar, Footer } from "./components";
+import { Hero, About } from "./containers";
 
 function App() {
   return (
