@@ -20,7 +20,7 @@
 
 .footer .footer-links button {
   padding: 0.7rem 1rem;
-  background-color: #0c0b0b;
+  background: inherit;
   border-radius: 30px;
   border: none;
   cursor: pointer;
